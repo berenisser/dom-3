@@ -17,7 +17,11 @@
 
 	<script>
 		function myFunction() {
-			
+			var nombre = document.getElementById("mostrarNombre");
+			var mail = document.getElementById("mostrarMail");
+
+			nombre.innerHTML = "Nombre: "+document.getElementById("name").value;
+			mail.innerHTML = "Email: "+document.getElementById("email").value;
 		}
 	</script>
 </body>
